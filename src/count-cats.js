@@ -15,7 +15,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function countCats(/* matrix */inputMatrix) {
-  // newArray = [...inputMatrix].filter(el => el === '^^');
   if (!inputMatrix) return 0;
 
   const numberOfEl = inputMatrix.reduce((sum, subArr) => {
